@@ -1,0 +1,51 @@
+
+body {
+    background: lightblue;
+}
+* {
+    font-family: Arial;
+}
+p.form-title {
+    font-weight: bold;
+    font-size: large;
+}
+label {
+    font-size: small;
+}
+input {
+    font-size: medium;
+    font-weight: bold;
+}
+/*
+The following styles do not work properly in Ubuntu 16 - Flask - Mozilla
+To work properly, they should be inserted in the own page with <style></style>
+Unknown reason
+*/
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: medium;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button-send {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+.button-send:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button-reset {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+.button-reset:hover {
+  background-color: #008CBA;
+  color: white;
+}
